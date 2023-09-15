@@ -1,0 +1,41 @@
+@import url(variaveis.css);
+
+.rodape {
+    width: 100%;
+    padding: 5% 0;
+    background-color: var(--cinza-claro);
+    text-align: center;
+}
+
+.container-rodape {
+    margin-bottom: 2em;
+}
+
+.container-rodape-titulo {
+    font-size: 36px;
+    margin-bottom: 1rem;
+    font-weight: 600;
+}
+
+.container-rodape-paragrafo {
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 1.5rem;
+}
+
+.container-rodape-email {
+    background-color: var(--branco);
+    padding: 1rem 7em 1rem 1rem;
+    border: 1px solid var(--cinza-borda-input);
+    border-radius: 8px;
+    margin-right: 1rem;
+    
+}
+
+.container-rodape-botao {
+    padding: 1em 2em;
+}
+
+.rodape-texto {
+    font-size: 14px;
+}

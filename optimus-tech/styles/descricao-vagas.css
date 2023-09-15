@@ -1,0 +1,37 @@
+@import url(variaveis.css);
+
+.descricao-vagas {
+    width: 50%;
+    margin: auto;
+    text-align: start;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.container-descricao-vagas {
+    padding: 1rem;
+    border-radius: 10px;
+    border: 1px solid #6670853c;
+}
+
+.descricao-vagas-titulo {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.container-descricao-vaga {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.container-tempo-salario {
+    display: flex;
+    gap: 15px;
+    margin-top: 1rem;
+}
+
+.container-tempo, .container-salario {
+    color: var(--cinza);
+    font-size: 16px;
+}
