@@ -1,0 +1,57 @@
+@import url(base.css);
+@import url(variaveis.css);
+
+#cabecalho {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-weight: 500;
+}
+
+.cabecalho__titulo {
+    font-weight: 500;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.navegacao {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: start;
+    gap: 32px;
+}
+
+.navegacao a {
+    text-decoration: none;
+    font-weight: 500;
+    color: var(--cinza);
+}
+
+.container__botoes {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 12px;
+}
+
+.container__botoes-botao_cadastrar {
+    background-color: var(--marom);
+    color: var(--branco);
+    padding: 0.8rem;
+    border-radius: 8px;
+    text-decoration: none;
+    margin: 10px, 18px, 10px, 18px;
+}
+
+.container__botoes-botao_entrar {
+    background-color: var(--branco);
+    color: var(--cinza);
+    padding: 1em;
+    text-decoration: none;
+    font-weight: 500;
+}

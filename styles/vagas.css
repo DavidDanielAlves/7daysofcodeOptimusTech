@@ -1,0 +1,34 @@
+@import url(variaveis.css);
+
+#vagas {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding: 3em;
+}
+
+.vagas-container {
+    width: 100%;
+    margin: auto;
+}
+
+.imagem-vagas {
+    margin-top: 3em;
+    width: 100%;
+}
+
+.vagas-abertas {
+    border-radius: 100px;
+    padding: 5px 10px;
+    background-color: var(--marrom-tranparente);
+}
+
+.inner-container-vagas-titulo {
+    font-size: 2rem;
+    padding: 1rem 0 1.5rem 0;
+}
+
+.vagas-texto {
+    margin-bottom: 1rem;
+    font-size: 20px;
+}

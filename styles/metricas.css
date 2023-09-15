@@ -1,0 +1,31 @@
+@import url(variaveis.css);
+
+.metricas-container {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: flex-start;
+    padding-bottom: 5em;
+    gap: 10px;
+}
+
+.inner-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.inner-container-titulo {
+    font-size: 2.5em;
+    color: var(--marom);
+    font-weight: 600;
+}
+
+.inner-container-subtitulo {
+    font-weight: 500;
+}
+
+.inner-container-paragrafo {
+    padding-right: 3rem;
+}
